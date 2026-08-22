@@ -5,8 +5,8 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-6 text-white">About</h2>
         <p className="text-gray-300 leading-relaxed mb-4">
           Hi, I'm a developer who loves to explore projects, skills and tech that intrigues me. 
-          Recently completed an ML internship at DRDO working with quantum algorithms. Currently exploring 
-          DSA using Python and improving my web development skills.
+          Recently completed an ML internship at DRDO working with quantum algorithms. Working on improving
+          my dev skills and solving DSA problems using Python.
         </p>
         <p className="text-gray-300 leading-relaxed">
           <strong>Stack:</strong> React, Express, Node.js, PostgreSQL 
