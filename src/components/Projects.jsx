@@ -3,7 +3,7 @@ export default function Projects() {
     {
       name: "Gym Planner AI",
       description: "AI-powered workout planner. Generate personalized plans with OpenRouter API.",
-      tech: "React, Node.js, Express, PostgreSQL, Prisma, Neon Auth",
+      tech: "PERN stack, Neon Auth, OpenRouter",
       github: "https://github.com/ujjwaltuteja03/AI-Gym-Planner.git",
       live: "https://ai-gym-planner-xi.vercel.app/"
     },
