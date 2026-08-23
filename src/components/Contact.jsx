@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section className="max-w-4xl mx-auto px-6 py-12">
-      <h2 className="text-3xl font-bold mb-8 text-white">Get in Touch</h2>
+      <h2 className="text-3xl font-bold mb-8 text-white">Get in touch</h2>
       <p className="text-gray-300 mb-6">
         Open to full stack and software development roles. Feel free to reach
         out using these links:
