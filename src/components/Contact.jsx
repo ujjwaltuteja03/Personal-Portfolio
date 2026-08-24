@@ -10,27 +10,27 @@ export default function Contact() {
         <a
           href="https://github.com/ujjwaltuteja03"
           target="_blank"
-          className="text-gray-400 hover:text-white transition cursor-pointer"
+          className="text-white hover:underline transition cursor-pointer"
         >
           GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/ujjwal-tuteja-a41791248/"
           target="_blank"
-          className="text-gray-400 hover:text-white transition cursor-pointer"
+          className="text-white hover:underline transition cursor-pointer"
         >
           LinkedIn
         </a>
         <a
           href="mailto:ujjwal.tuteja03@gmail.com"
-          className="text-gray-400 hover:text-white transition cursor-pointer"
+          className="text-white hover:underline transition cursor-pointer"
         >
           Email
         </a>
         <a
           href="https://www.instagram.com/ujjwal_0326/"
           target="_blank"
-          className="text-gray-400 hover:text-white transition cursor-pointer"
+          className="text-white hover:underline transition cursor-pointer"
         >
           Instagram
         </a>
