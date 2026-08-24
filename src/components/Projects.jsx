@@ -8,13 +8,13 @@ export default function Projects() {
       github: "https://github.com/ujjwaltuteja03/AI-Gym-Planner.git",
       live: "https://ai-gym-planner-git-main-ujjwaltuteja03s-projects.vercel.app/",
     },
-    // {
-    //   name: "Yelp Clone",
-    //   description: "Restaurant review platform with CRUD operations, ratings, and user reviews.",
-    //   tech: "React, Node.js, Express, PostgreSQL, Bootstrap",
-    //   github: "https://github.com/ujjwaltuteja/yelp-clone",
-    //   live: "https://yelp-clone-live.railway.app"
-    // }
+    {
+      name: "Yelp Clone",
+      description: "Restaurant review platform with CRUD operations, ratings, and user reviews.",
+      tech: "React, Node.js, Express, PostgreSQL, Bootstrap",
+      github: "https://github.com/ujjwaltuteja03/Yelp-Clone-PERN.git",
+      // live: "https://yelp-clone-live.railway.app"
+    }
   ];
 
   return (
@@ -39,6 +39,7 @@ export default function Projects() {
               >
                 GitHub
               </a>
+              {proj.live && (
               <a
                 href={proj.live}
                 target="_blank"
@@ -46,6 +47,7 @@ export default function Projects() {
               >
                 Live Demo
               </a>
+              )}
             </div>
           </div>
         ))}
