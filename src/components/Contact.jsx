@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="max-w-4xl mx-auto px-6 py-12">
+    <section className="max-w-4xl mx-auto px-6 py-12" style={{ animation: 'slideUp 0.6s ease-out 0.9s both' }}>
       <h2 className="text-3xl font-bold mb-8 text-white">Get in touch</h2>
       <p className="text-gray-300 mb-6">
         Open to full stack and software development roles. Feel free to reach

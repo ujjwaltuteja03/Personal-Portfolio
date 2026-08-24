@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="bg-black pt-16 pb-6">
+    <section className="bg-black pt-16 pb-6" style={{ animation: 'slideUp 0.6s ease-out 0.3s both' }}>
       <div className="max-w-2xl mx-auto px-6 p-8 rounded-lg text-center" style={{ fontFamily: 'Helvetica Neue, sans-serif' }}>
         {/* <h2 className="text-3xl font-bold mb-6 text-white">About</h2> */}
         <p className="text-lg text-gray-200  leading-relaxed mb-4">

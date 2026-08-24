@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="bg-black text white " style={{ fontFamily: 'Helvetica Neue, sans-serif' }}>
+    <div className="bg-black text white min-h-screen flex flex-col" style={{ fontFamily: 'Helvetica Neue, sans-serif' }}>
       <Header />
       <About />
       <Projects />

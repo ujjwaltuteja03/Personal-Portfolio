@@ -18,7 +18,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="max-w-4xl mx-auto px-6 py-12">
+    <section className="max-w-4xl mx-auto px-6 py-12" style={{ animation: 'slideUp 0.6s ease-out 0.6s both' }}>
       <h2 className="text-3xl font-bold mb-8 text-white">Projects</h2>
       <div className="grid gap-8">
         {projects.map((proj, i) => (
