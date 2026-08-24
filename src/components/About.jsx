@@ -9,7 +9,7 @@ export default function About() {
         </p>
         <p className="text-lg text-gray-200  leading-relaxed mb-4">
           Recently, I've completed an ML internship at DRDO, working with quantum algorithms. 
-          Probably somewhere improving my dev skills or solving DSA problems using Python right now.
+          Probably somewhere improving my dev skills or solving DSA problems using Python.
         </p>
         <p className="text-lg text-gray-200 leading-relaxed">
           <strong>Stack:</strong> React, Express, Node.js, PostgreSQL 

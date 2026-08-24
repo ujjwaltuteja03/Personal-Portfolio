@@ -6,7 +6,7 @@ export default function Projects() {
         "AI-powered workout planner. Generate personalized plans with OpenRouter API.",
       tech: "PERN stack, Neon Auth, OpenRouter",
       github: "https://github.com/ujjwaltuteja03/AI-Gym-Planner.git",
-      live: "https://ai-gym-planner-xi.vercel.app/",
+      live: "https://ai-gym-planner-git-main-ujjwaltuteja03s-projects.vercel.app/",
     },
     // {
     //   name: "Yelp Clone",
