@@ -9,16 +9,27 @@ export default function Projects() {
       live: "https://ai-gym-planner-git-main-ujjwaltuteja03s-projects.vercel.app/",
     },
     {
+      name: "Job Queue Dashboard",
+      description:
+        "Full-stack job queue system with lifecycle validation, status filtering, and concurrency-safe updates.",
+      tech: "React, TypeScript, NestJS, PostgreSQL, Neon",
+      github: "https://github.com/ujjwaltuteja03/airth-job-queue",
+      live: "https://airth-job-queue-chi.vercel.app/",
+    },
+    {
       name: "Yelp Clone",
-      description: "Restaurant review platform with CRUD operations, ratings, and user reviews.",
+      description:
+        "Restaurant review platform with CRUD operations, ratings, and user reviews.",
       tech: "React, Node.js, Express, PostgreSQL, Bootstrap",
       github: "https://github.com/ujjwaltuteja03/Yelp-Clone-PERN.git",
-      // live: "https://yelp-clone-live.railway.app"
-    }
+    },
   ];
 
   return (
-    <section className="max-w-4xl mx-auto px-6 py-12" style={{ animation: 'slideUp 0.6s ease-out 0.6s both' }}>
+    <section
+      className="max-w-4xl mx-auto px-6 py-12"
+      style={{ animation: "slideUp 0.6s ease-out 0.6s both" }}
+    >
       <h2 className="text-3xl font-bold mb-8 text-white">Projects</h2>
       <div className="grid gap-8">
         {projects.map((proj, i) => (
@@ -40,13 +51,13 @@ export default function Projects() {
                 GitHub
               </a>
               {proj.live && (
-              <a
-                href={proj.live}
-                target="_blank"
-                className="text-white hover:underline text-sm font-semibold"
-              >
-                Live Demo
-              </a>
+                <a
+                  href={proj.live}
+                  target="_blank"
+                  className="text-white hover:underline text-sm font-semibold"
+                >
+                  Live Demo
+                </a>
               )}
             </div>
           </div>
