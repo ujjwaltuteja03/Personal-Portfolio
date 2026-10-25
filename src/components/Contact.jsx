@@ -28,11 +28,11 @@ export default function Contact() {
           Email
         </a>
         <a
-          href="https://www.instagram.com/ujjwal_0326/"
+          href="https://neetcode.io/user/FleetRavager24"
           target="_blank"
           className="text-white hover:underline transition cursor-pointer"
         >
-          Instagram
+          Neetcode
         </a>
       </div>
     </section>

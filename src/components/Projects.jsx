@@ -17,6 +17,13 @@ export default function Projects() {
       live: "https://airth-job-queue-chi.vercel.app/",
     },
     {
+      name: "Airbnb Clone",
+      description:
+        "High-fidelity Airbnb listing interface with photo tours, lightbox navigation, keyboard controls, and sticky navigation.",
+      tech: "React, JavaScript, Tailwind CSS",
+      live: "https://airbnb-clone-omega-green.vercel.app/",
+    },
+    {
       name: "Yelp Clone",
       description:
         "Restaurant review platform with CRUD operations, ratings, and user reviews.",
@@ -43,13 +50,15 @@ export default function Projects() {
               <strong>Tech:</strong> {proj.tech}
             </p>
             <div className="flex gap-4 mt-4">
-              <a
-                href={proj.github}
-                target="_blank"
-                className="text-white hover:underline text-sm font-semibold"
-              >
-                GitHub
-              </a>
+              {proj.github && (
+                <a
+                  href={proj.github}
+                  target="_blank"
+                  className="text-white hover:underline text-sm font-semibold"
+                >
+                  GitHub
+                </a>
+              )}
               {proj.live && (
                 <a
                   href={proj.live}
